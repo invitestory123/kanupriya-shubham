@@ -342,8 +342,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const cdMins = document.getElementById('cdMins');
   const cdSecs = document.getElementById('cdSecs');
   
-  // Saturday, 21st November 2026, 6:30 PM IST (GMT+05:30)
-  const targetWeddingDate = new Date('November 21, 2026 18:30:00 GMT+0530').getTime();
+  // Saturday, 21st November 2026, 5:00 PM IST (GMT+05:30)
+  const targetWeddingDate = new Date('November 21, 2026 17:00:00 GMT+0530').getTime();
 
   function updateCountdown() {
     if (!cdDays || !cdHours || !cdMins || !cdSecs) return;
@@ -587,8 +587,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const details = encodeURIComponent(`Dear Friends and Family, With full hearts, we invite you to share in the joy of our wedding day. Come for the vows, stay for the laughter, and help us create memories to cherish forever.\n\nVenue: Ayatti By Caparo Group\nMaps: https://maps.app.goo.gl/PN91PauMW3FaKZwRA?g_st=ic`);
       const loc = encodeURIComponent(`Ayatti By Caparo Group, Lakhnawali, Knowledge Park V, Greater Noida, Uttar Pradesh`);
 
-      // 21st November 2026, 6:30 PM IST (13:00 UTC)
-      const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&details=${details}&location=${loc}&dates=20261121T130000Z/20261121T190000Z`;
+      // 21st November 2026, 5:00 PM IST (11:30 UTC)
+      const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&details=${details}&location=${loc}&dates=20261121T113000Z/20261121T190000Z`;
 
       window.open(googleCalendarUrl, '_blank', 'noopener,noreferrer');
     });
