@@ -860,9 +860,10 @@ html, body {
   font-size: 0.72rem;
   font-weight: 700;
   color: var(--color-gold);
-  width: 58px;
+  width: 62px;
   flex-shrink: 0;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
+  white-space: nowrap;
   padding-top: 2px;
 }
 
