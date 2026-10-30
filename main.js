@@ -584,7 +584,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (addToCalendarBtn) {
     addToCalendarBtn.addEventListener('click', () => {
       const title = encodeURIComponent(`Wedding of Shubham & Kanupriya #KaShFoundLuv`);
-      const details = encodeURIComponent(`Dear Friends and Family, With full hearts, we invite you to share in the joy of our wedding day. Against all odds, love led us here, now we begin forever with those we hold dear.\n\nVenue: Ayatti By Caparo Group\nMaps: https://maps.app.goo.gl/PN91PauMW3FaKZwRA?g_st=ic`);
+      const details = encodeURIComponent(`Dear friends and family, with full hearts, we invite you to share in our wedding day. Come for the vows, stay for the laughter, and help us make memories to keep forever.\n\nVenue: Ayatti By Caparo Group\nMaps: https://maps.app.goo.gl/PN91PauMW3FaKZwRA?g_st=ic`);
       const loc = encodeURIComponent(`Ayatti By Caparo Group, Lakhnawali, Knowledge Park V, Greater Noida, Uttar Pradesh`);
 
       // 21st November 2026, 5:00 PM IST (11:30 UTC)
